@@ -12,4 +12,6 @@ EXPOSE 80
 
 # VOLUME [ "/app/node_modules" ]
 
-CMD ["node", "server.js"]
+VOLUME [ "/app/temp" ]
+
+CMD ["npm", "run", "dev"]
