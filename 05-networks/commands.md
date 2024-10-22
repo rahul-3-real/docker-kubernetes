@@ -8,3 +8,6 @@ docker build -t <image-name:tag> .
 
 Create and run new container
 docker run -d -p 3000:3000 --rm --name <container-name> <image-name:tag>
+
+Adding network
+docker network <network-name>
